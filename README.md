@@ -1,6 +1,9 @@
 Ferramenta para controle operacional para auxílio de provas e práticas em laboratórios de informática
 
 
+A pasta Tela1 é a pasta do projeto
+
+
 IDE: Qt Creator 4.10 (Enterprise)
 
 Compilador: Mingw 5.3.0 32bit
