@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="Line" name="linhaVertical">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>5</y>
+      <width>2</width>
+      <height>763</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="linhaHorizontal">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>100</y>
+      <width>1270</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbLogo">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>5</y>
+      <width>190</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>190</width>
+      <height>90</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btDesligar">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>25</y>
+      <width>353</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string>Desligar Monitores</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btCompartilhar">
+    <property name="geometry">
+     <rect>
+      <x>563</x>
+      <y>25</y>
+      <width>353</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string>Compartilhar Tela</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btBloquear">
+    <property name="geometry">
+     <rect>
+      <x>921</x>
+      <y>25</y>
+      <width>354</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string>Bloquear Acesso:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbEscolhaAluno">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>105</y>
+      <width>190</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(210, 210, 210);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Escolha o Aluno:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btAlunoA">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>140</y>
+      <width>190</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string>Aluno A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btAlunoB">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>175</y>
+      <width>190</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string>Aluno B</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbCompartilhados">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>105</y>
+      <width>532</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Compartilhados</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btRecebidos">
+    <property name="geometry">
+     <rect>
+      <x>742</x>
+      <y>105</y>
+      <width>533</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string>Recebidos</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbPastaTumaA">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>140</y>
+      <width>263</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Turma A</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbPastaTurmaB">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>140</y>
+      <width>264</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Turma B</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbPastaTurmaC">
+    <property name="geometry">
+     <rect>
+      <x>742</x>
+      <y>140</y>
+      <width>263</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>Turma C</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
